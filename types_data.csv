@@ -1,0 +1,20 @@
+,Types,Sous_types,maskings,snow_type
+0,Text,String,Visible,varchar
+1,Text,String,*********,varchar
+2,Text,String,sha2(val),varchar
+3,Text,mail,Visible,varchar
+4,Text,mail,*********,varchar
+5,Text,mail,sha2(val),varchar
+6,Text,mail,"regexp_replace(val,'.+\@','*****@')",varchar
+7,Text,mot de passe,Visible,varchar
+8,Text,mot de passe,***MASKED***,varchar
+9,Text,mot de passe,*********,varchar
+10,Text,code postal,Visible,varchar
+11,Text,code postal,xxxxx,varchar
+12,Text,code postal,sha2(val),varchar
+13,Text,adresse,Visible,varchar
+14,Text,adresse,*********,varchar
+15,Number,integer,Visible,integer
+16,Number,integer,1,integer
+17,Number,float,Visible,float
+18,Number,float,1,float
